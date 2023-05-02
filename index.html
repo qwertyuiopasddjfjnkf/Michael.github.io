@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="ch">
+	<head>
+		<meta charset="utf-8">
+	    <link rel="shortcut icon" type="image/x-icon" href="23.jpg">
+		<title>浏览器</title>
+		<style type="text/css">
+		  html,
+        body {
+            height: 100%;
+        }
+.input {
+    font-size: 24px; /* 设置字体大小 */
+    background-image: linear-gradient(to bottom, #ff6b6b, #ff9554, #ffd93e, #4ecc4e, #54d8b8, #4d9eeb, #b269ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+		form .input{
+	position:absolute;
+	top:410px;
+	left:60px;
+	padding: 0 40px 0 20px;
+	width: 800px;
+	height: 100px;
+	font-size: 50px;
+	border: 1px solid #eee;
+	border-radius: 80px;
+	border:7px solid rgba(0,0,255,0.6);
+			}
+			form .search{
+	outline: none;
+	position: absolute;
+	top: 417px;
+	left:827px;
+	width: 100px;
+	height: 100px;
+	line-height: 30px;
+	padding: 0;
+	color: #969696;
+	text-align: center;
+	background: #222;
+	border-radius: 50%;
+	font-size: 15px;
+	cursor: pointer;
+	border:3px solid orange;
+			}
+			.input:focus{
+			outline:none;
+	border:4px solid cayn;
+	box-shadow:10px 10px 25px #000000;
+}
+.input:focus+.search {
+background-color:orange;
+border:3px solid yellow;
+	color: #fff;
+}	
+			a{
+			text-decoration: none;
+			font-size:35px;
+			color:gray;
+			}
+			.hello{
+			position:absolute;
+			top:125px;
+			left:50px;
+			}
+			.boy{
+			position:absolute;
+			top:220px;
+			left:30px;
+			}
+			.a,.apple,.hello,.girl,.woman,.cousin,.father,.dad,.uncle,.q,.e ,.t,.u,.o,.j,.l,.x,.v,.er,.rt,.ty.yu,.ui,.io{
+			border-radius:25% 25% 25% 25%
+			}
+			.girl{
+			position:absolute;
+			top:125px;
+			left:300px;
+			}
+			.man{
+			position:absolute;
+			top:230px;
+			left:300px;
+			}
+			.woman{
+			position:absolute;
+			top:125px;
+			left:560px;
+			}
+			.brother{
+			position:absolute;
+			top:220px;
+			left:540px;
+			}
+			.cousin{
+			position:absolute;
+			top:125px;
+			left:800px;
+			}
+			.sister{
+			position:absolute;
+			top:220px;
+			left:780px;
+			}
+			.father{
+			position:absolute;
+			top:380px;
+			left:50px;
+			}
+			.mother{
+			position:absolute;
+			top:480px;
+			left:60px;
+			}
+			.dad{
+			position:absolute;
+			top:380px;
+			left:300px;
+			}
+			.mom{
+			position:absolute;
+			top:480px;
+			left:300px;
+			}
+			.uncle{
+			position:absolute;
+			top:380px;
+			left:560px;
+			}
+			.aunt{
+			position:absolute;
+			top:480px;
+			left:530px;
+			}
+			.apple{
+			position:absolute;
+			top:380px;
+			left:800px;
+			}
+			.banana{
+			position:absolute;
+			top:480px;
+			left:815px;
+			}
+			.q{
+			position:absolute;
+			top:635px;
+			left:50px;
+			}
+			.w{
+			position:absolute;
+			top:740px;
+			left:50px;
+			}
+			.e{
+			position:absolute;
+			top:635px;
+			left:300px;
+			}
+			.r{
+			position:absolute;
+			top:740px;
+			left:315px;
+			}
+			.t{
+			position:absolute;
+			top:635px;
+			left:560px;
+			}
+			.y{
+			position:absolute;
+			top:740px;
+			left:541px;
+			}
+			.u{
+			position:absolute;
+			top:635px;
+			left:800px;
+			}
+			.i{
+			position:absolute;
+			top:740px;
+			left:813px;
+			}
+			.o{
+			position:absolute;
+			top:890px;
+			left:50px;
+			}
+			.p{
+			position:absolute;
+			top:990px;
+			left:65px
+			}
+			.a{
+			position:absolute;
+			top:890px;
+			left:300px;
+			}
+			.s{
+			position:absolute;
+			top:990px;
+			left:285px;
+			}
+			.d{
+			position:absolute;
+			top:890px;
+			left:560px;
+			}
+			.f{
+			position:absolute;
+			top:990px;
+			left:570px;
+			}
+			.g{
+			position:absolute;
+			top:890px;
+			left:800px;
+			}
+			.h{
+			position:absolute;
+			top:990px;
+			left:800px;
+			}
+			.j{
+			position:absolute;
+			top:1145px;
+			left:50px;
+			}
+			.k{
+			position:absolute;
+			top:1245px;
+			left:65px;
+			}
+			.l{
+			position:absolute;
+			top:1145px;
+			left:300px;
+			}
+			.z{
+			position:absolute;
+			top:1245px;
+			left:300px;
+			}
+			.x{
+			position:absolute;
+			top:1145px;
+			left:560px;
+			}
+			.c{
+			position:absolute;
+			top:1245px;
+			left:570px;
+			}
+			.v{
+			position:absolute;
+			top:1145px;
+			left:800px;
+			}
+			.b{
+			position:absolute;
+			top:1245px;
+			left:780px;
+			}
+.my{
+position:absolute;
+top:200px;
+left:220px;
+}
+.me{
+position:absolute;
+top:200px;
+left:270px;
+}
+#h{
+font-size:70px;
+color:purple;
+position:absolute;
+top:290px;
+left:350px;
+}
+#m{
+font-size:70px;
+color:pink;
+position:absolute;
+top:290px;
+left:450px;
+}
+#s{
+font-size:70px;
+color:brown;
+position:absolute;
+top:290px;
+left:550px;
+}
+#years{
+font-size:30px;
+color:white;
+position:absolute;
+top:370px;
+left:380px;
+}
+#bread{
+position:absolute;
+top:550px;
+left:30px;
+width:920px;
+background-color:rgba(0,0,0,0.3);
+border-radius:40px;
+}
+   .bjimg {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -10;
+      object-fit: cover;
+    }
+	li {
+        list-style: none;
+    }
+	.we{
+	position:absolute;
+	top:15px;
+	left:140px;
+	}
+    .qw {
+	position:relative;
+	top:80px;
+	left:56px;
+	font-size:50px;
+	color:#349796;
+        display: block;
+        text-decoration: none;
+        padding: 10px 90px;
+		border: solid 1px #aa8888;
+		background-color:white;
+		background-position: center;
+	    background-size:cover;    
+		background-repeat: no-repeat;
+    }
+    .qw:hover {
+        background-color: rgb(195, 223, 247);
+        animation: shadow 1s linear 0s infinite alternate;
+    }
+    .div_nav {
+        height: 36.8px;
+        margin-top: 100px;
+		position:absolute;
+		top:-125px;
+		right:600px;
+    }
+    .div_nav>ul>li {
+        float: left;
+    }
+    .div_nav>ul {
+        width: 476px;
+        height: 100%;
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+    .second {
+        display: none;
+    }
+    .div_nav>ul>li:hover .second {
+        display: block;
+    }
+    
+    @keyframes shadow {
+        0% {
+            color: #913766;
+            text-shadow: 0px 0px 0px rgba(148, 202, 244, 0.689);
+        }
+        100% {
+            color: rgb(86, 88, 88);
+            text-shadow: 0px 0px 20px rgb(32, 36, 249);
+        }
+    }
+        body {
+            background-image: url() no-repeat;
+            background-size: cover;
+        }
+        
+        .qwer{
+		    width:100px;
+            overflow: hidden;
+            background-color: #fff;
+            margin: 0;
+            padding: 5px;
+            position: absolute;
+            left: 50%;
+            bottom: 20px;
+            transform: translate(-50%);
+        }
+        
+        .qwe{
+            list-style: none;
+            float: left;
+            margin-right: 5px;
+        }
+        
+        .qwe:last-child {
+            margin-right: 0;
+        }
+        
+        .qwe img {
+            width: 100px;
+            height: 60px;
+            display: block;
+            object-fit: cover;
+        }
+        
+        .qwe img:hover {
+            box-shadow: 0 0 5px #000;
+        }
+		</style>
+		<script>
+		  var t = null;
+        function time() {
+            dt = new Date();
+            var y = dt.getFullYear();
+            var M = dt.getMonth() + 1;
+            var d = dt.getDate();
+            var h = dt.getHours();
+            var m = dt.getMinutes();
+            var s = dt.getSeconds();
+            M=checkTime(M);
+            d=checkTime(d);
+       		h=checkTime(h);
+            m=checkTime(m);
+            s=checkTime(s);
+			document.getElementById("years").innerHTML=y+"年"+M+"月"+d+"日";
+			document.getElementById("h").innerHTML = h + ":" ;
+			document.getElementById("m").innerHTML = m + ":" ;
+			document.getElementById("s").innerHTML = s;
+            t = setTimeout(time, 1000);
+        }
+        window.onload = function () {
+            time();
+        };
+        function checkTime(i){
+        if(i<10){
+            i="0"+i;
+        }
+        return i;
+    }
+function search() {
+  var keyword = document.querySelector(".input").value.trim();
+  if (keyword !== "") {
+    if (/^https?:\/\//i.test(keyword)) { // 判断是否输入的是网址
+      window.location.href = keyword;
+    } else {
+      window.location.href = "https://www.baidu.com/s?wd=" + keyword; // 如果不是网址，则按照搜索词进行搜索
+    }
+  }
+  return false;}
+	                const that = this;
+				var webview = plus.webview.currentWebview();
+				plus.key.addEventListener('backbutton', function() {//
+					webview.canBack(function(e) {
+						if (e.canBack) {
+							webview.back();  
+						} else {
+							webview.close(); //
+						}
+					});
+				});
+								var imgs = document.querySelectorAll('.qwe');
+        for (var i = 0; i < imgs.length; i++) {
+            imgs[i].onclick = function() {
+                document.body.style.backgroundImage = 'url(' + this.src + ')';
+            };
+        }
+		</script>
+	</head>
+	<body style="background:url(https://sjbz-fd.zol-img.com.cn/t_s320x510c5/g6/M00/06/0D/ChMkKV9jQ_aIXDzPABF9qv1NeYoAACbCANrRSkAEX3C607.jpg) no-repeat;background-size:100% 150%">
+	  <div style="position:absolute;left:170px;"><a href="http://www.baidu.com"><img src="https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png" width=650px></a></div>
+	  <div id="years"></div>
+	  <div id="h"></div>
+	  <div id="m"></div>
+	  <div id="s"></div>
+	 <div id="bread" style="height:1350px;">
+		<a href="http://www.bilibili.com"><img src="https://m.ddooo.com/logo/200807/202008071734225854.jpg" width=100px height=100px class="hello"></a>
+		<a href="http://www.bilibili.com" class="boy">哔哩哔哩</a>
+		<a href="http://www.hao123.com"><img src="https://m.32r.com/logo/221201/202212011440328001.png" class="girl" width=100px height=100px></a>
+		<a href="http://www.hao123.com" class="man">hao123</a>
+		<a href="https://fanyi.baidu.com"><img src="https://gimg3.baidu.com/search/src=https%3A%2F%2Fapp-center.cdn.bcebos.com%2Fappcenter%2Fsts%2Fpcfile%2F503918235%2Ff4ff13f09ed05e1c952f21d6209d4dec.png&refer=http%3A%2F%2Fwww.baidu.com&app=2021&size=w150&n=0&g=0n&er=404&q=100&fmt=auto&maxorilen2heic=2000000?sec=1675184400&t=f764c836841c3752f7bbcc73ed86fda6" width=100px height=100px class="woman"></a>
+		<a href="https://fanyi.baidu.com/" class="brother">百度翻译</a>
+		<a href="https://map.baidu.com/@12548182,3866416,13z"><img src="https://app-center.cdn.bcebos.com/appcenter/sts/pcfile/503918235/478bd90329dbef14aae4e68d7b3a17fe.png" width=100px height=100px class="cousin"></a>
+		<a href="https://map.baidu.com/@12548182,3866416,13z" class="sister">百度地图</a>
+		<a href="https://www.csdn.net/" ><img src="https://gimg3.baidu.com/search/src=https%3A%2F%2Fapp-center.cdn.bcebos.com%2Fappcenter%2Fsts%2Fpcfile%2F1456035591%2F0b3fda3369abe28ec6e67ebc56746fc7.png&refer=http%3A%2F%2Fwww.baidu.com&app=2021&size=w150&n=0&g=0n&er=404&q=100&fmt=auto&maxorilen2heic=2000000?sec=1675184400&t=82d9153ca64556eb4d4053d63ff60ffe" width=100px height=100px class="father"></a>
+		<a href="https://www.csdn.net/" class="mother">CSDN</a>
+		<a href="https://m.iqiyi.com/"><img src="https://gimg3.baidu.com/search/src=https%3A%2F%2Fapp-center.cdn.bcebos.com%2Fappcenter%2Fsts%2Fpcfile%2F5944066977%2F2507de0a4ceaa97eedbc0421776a69a7.png&refer=http%3A%2F%2Fwww.baidu.com&app=2021&size=w150&n=0&g=0n&er=404&q=100&fmt=auto&maxorilen2heic=2000000?sec=1675184400&t=84b3ba3f8d94c396ac09d9585f54aab8" width=100px height=100px class="dad"></a>
+		<a href="https://m.iqiyi.com/" class="mom">爱奇艺</a>
+		<a href="https://music.163.com/"><img src="https://gimg3.baidu.com/search/src=https%3A%2F%2Fapp-center.cdn.bcebos.com%2Fappcenter%2Fsts%2Fpcfile%2F6337963233%2F0bfec6b8ef744e14a2dd052352abdcfe.png&refer=http%3A%2F%2Fwww.baidu.com&app=2021&size=w150&n=0&g=0n&er=404&q=100&fmt=auto&maxorilen2heic=2000000?sec=1675184400&t=e0e376e7efe302846436b8db3f5a3668" width=100px height=100px class="uncle"></a>
+		<a href="https://music.163.com/" class="aunt">网易云音乐</a>
+		<a href="https://m.douban.com/home_guide"><img src="http://pic.y8l.com/up/2020-12/202012221715296176.png" width=100px height=100px class="apple"></a>
+		<a href="https://m.douban.com/home_guide" class="banana">豆瓣</a>
+	    <a href="https://www.nowcoder.com/"><img src="https://t15.baidu.com/it/u=3948464864,4128463919&fm=181&app=46&size=r1,1&n=0&g=4n&f=JPG&fmt=auto&maxorilen2heic=2000000?s=3891A158C583AEFA5A3900890000E092" width=100px height=100px class="q"></a>
+		<a href="https://www.nowcoder.com/" class="w">牛客网</a>
+	    <a href="https://www.zhihu.com/"><img src="https://android-artworks.25pp.com/fs08/2020/12/10/9/110_8c2d5f419013599eb8c912d390315b22_con.png" width=100px height=100px class="e"></a>
+		<a href="https://www.zhihu.com/" class="r">知乎</a>
+	    <a href="https://v.qq.com/"><img src="https://img.downkuai.com/logo/20211117/2a8f9d77d7f8ee857242c65828463670.png" width=100px height=100px class="t"></a>
+		<a href="https://v.qq.com/" class="y">腾讯视频</a>
+	    <a href="https://www.qimao.com/"><img src="https://gimg3.baidu.com/search/src=https%3A%2F%2Fgdown.baidu.com%2Fappcenter%2Fsource%2F5236551525%2F343804cd49f84a3282bc0b872d7e1ff5%2Fres%2Fmipmap-xhdpi-v4%2Fic_launcher_round.png&refer=http%3A%2F%2Fwww.baidu.com&app=2021&size=w150&n=0&g=0n&er=404&q=100&fmt=auto&maxorilen2heic=2000000?sec=1675184400&t=458617d1e59e5e8188fcad2447c9fec1" width=100px height=100px class="u"></a>
+		<a href="https://www.qimao.com/" class="i">小说</a>
+	    <a href="https://www.163.com/"><img src="https://hao123-static.cdn.bcebos.com/cms/2022-12/1672040832137/f61811fba01a.png" width=100px height=100px class="o"></a>
+	   <a href="https://www.163.com/" class="p">网易</a>
+	    <a href="https://m.sohu.com/mil"><img src="http://pic.962.net/up/2021-10/20211019181351201.png" width=100px height=100px class="a"></a>
+		<a href="https://m.sohu.com/mil" class="s">搜狐军事</a>
+	    <a href="https://m.tianqi.com/"><img src="https://gdown.baidu.com/appcenter/source/2464394370/4063ce6019dc3e40ec765d174e11d728/res/drawable-xxxhdpi-v4/weather_logo.png" width=100px height=100px class="d"></a>
+		<a href="https://m.tianqi.com/" class="f">天气</a>
+	    <a href="http://www.people.com.cn/"><img src="https://gimg3.baidu.com/search/src=http%3A%2F%2Fgdown.baidu.com%2Fimg%2F0%2F200_200%2F3847d9834993c67ad06a410af4fd9917.png&refer=http%3A%2F%2Fwww.baidu.com&app=2021&size=w150&n=0&g=0n&er=404&q=100&fmt=auto&maxorilen2heic=2000000?sec=1675184400&t=3c6a17492180e6c46d66503c30a435d8" width=100px height=100px class="g"></a>
+		<a href="http://www.people.com.cn/" class="h">人民网</a>
+	    <a href="https://www.youku.com/"><img src="http://pic.downyi.com/upload/2017-6/20176111227359.jpg" width=100px height=100px class="j"></a>
+		<a href="https://www.youku.com/" class="k">优酷</a>
+	    <a href="http://app.yangkeduo.com/"><img src="https://gimg3.baidu.com/search/src=https%3A%2F%2Fgdown.baidu.com%2Fappcenter%2Fsource%2F2007466656%2Fb9ad330f4959f850a34f467a7459b3a9%2Fr%2Fo%2Flogo.png&refer=http%3A%2F%2Fwww.baidu.com&app=2021&size=w150&n=0&g=0n&er=404&q=100&fmt=auto&maxorilen2heic=2000000?sec=1675184400&t=149b6d1c06db6c703c118ff9c12f71a5" width=100px height=100px class="l"></a>
+		<a href="http://app.yangkeduo.com/" class="z">拼多多</a>
+	    <a href="https://m.taobao.com/"><img src="https://gimg3.baidu.com/search/src=https%3A%2F%2Fapp-center.cdn.bcebos.com%2Fappcenter%2Fsts%2Fpcfile%2F6373476063%2Fe010a436ee9899a1c4baa9b3173604cb.png&refer=http%3A%2F%2Fwww.baidu.com&app=2021&size=w150&n=0&g=0n&er=404&q=100&fmt=auto&maxorilen2heic=2000000?sec=1675184400&t=f9e3738d6b84134ec74ba87a6cd6342d" width=100px height=100px class="x"></a>
+		<a href="https://m.taobao.com/" class="c">淘宝</a>
+	    <a href="https://www.runoob.com/"><img src="https://img.32r.com/logo/200921/202009211523321261.png" width=100px height=100px class="v"></a>
+		<a href="https://www.runoob.com/" class="b">菜鸟编程</a>
+		</div>
+<div>
+		<form onsubmit="return search()">
+			<input type="text" placeholder="请输入搜索词" name="word" class="input" autocomplete="off"/>
+            <input type="submit" value="搜索" class="search" style="font-size:30px" >
+		</form>
+	  </div>
+	  <nav class="div_nav">
+        <ul>
+            <li>
+			  <a href="#"><div class="we"><hr width=50px size=5px color=white><hr width=50px size=5px color=white style="position:absolute;top:18px;"><hr width=50px size=5px color=white style="position:absolute;top:34px;"></div></a>
+                <ul class="second">
+                    <li><a href="https://www.aconvert.com" class="qw"><img src="http://www.fengyunpdf.com/staticfile/soft_h5/images/li2x90.png" width=40px height=40px class="er">格式转换</a></li>
+                    <li><a href="https://cli.im/" class="qw"><img src="http://www.yisusoft.com/down/files/softpic/p2185.png" width=40px height=40px>转二维码</a></li>
+                    <li><a href="https://ps.gaoding.com/#/" class="qw"><img src="http://pic.pdowncc.com/upload/2014-11/20141115113734.jpg" width=40px height=40px class="rt">网页版ps</a></li>
+                    <li><a href="http://www.wxeditor.com/" class="qw"><img src="https://gimg3.baidu.com/search/src=https%3A%2F%2Fapp-center.cdn.bcebos.com%2Fappcenter%2Ffile%2Fupload%2Fa7c39683dd48fe24bc9df0c4ba12d260e5e9df79-72d0-4bed-9f72-fcfff23226d7.png&refer=http%3A%2F%2Fwww.baidu.com&app=2021&size=w150&n=0&g=0n&er=404&q=100&fmt=auto&maxorilen2heic=2000000?sec=1675184400&t=6b1b2852a23aaecc9a689938e563df81" width=40px height=40px class="ty">易点微信</a></li>
+                    <li><a href="https://tool.chinaz.com/" class="qw"><img src="https://gips0.baidu.com/it/u=851022524,2949001227&fm=3012&app=3012&autime=1666968667&size=b360,360" width=40px height=40px class="yu">站长工具</a></li>
+				    <li><a href="https://p.haoii123.com/" class="qw"><img src="https://img2.baidu.com/it/u=1678820328,2327528335&fm=253&fmt=auto&app=138&f=JPEG?w=473&h=375" width=40px height=40px class="ui">在线排版</a></li>
+				    <li><a href="https://www.bmcx.com/?referer=51240" class="qw"><img src="https://img2.baidu.com/it/u=1678820328,2327528335&fm=253&fmt=auto&app=138&f=JPEG?w=473&h=375" width=40px height=40px class="ui">便民查询</a></li>
+				    <li><a href="https://dycharts.com/channel-inviteu/index.html?channelCode=M8KR4PLZ&hmsr=link-kim&hmpl=" class="qw"><img src="http://pic.5tu.cn/uploads/allimg/201910/pic_5tu_thumb_201909171319306270.jpg" width=40px height=40px class="io">数据图表</a></li>
+				    <li><a href="https://unsplash.com" class="qw"><img src="https://apk8.kxjsys.com/uploads/20210706110221938.png" width=40px height=40px>图片素材</a></li>
+				    <li><a href="https://pixabay.com/zh/" class="qw"><img src="http://pic.qqtf.com/up/2022-8/20228311735448881.png" width=40px height=40px>视频素材</a></li>
+				    <li><a href="https://wallhaven.cc" class="qw"><img src="https://thumb805.jfcdns.com/thumb/n2319s33vs18og38/7ef62e0faaace4b4_100_100.png" width=40px height=40px>壁纸大全</a></li>
+				    <li><a href="https://azure.microsoft.com/zh-cn/services/cognitive-services/text-to-speech/#overview" class="qw"><img src="https://t15.baidu.com/it/u=968691620,2232580324&fm=179&app=42&size=w931&n=0&g=4n&f=PNG&fmt=auto&maxorilen2heic=2000000?s=4D6AEE5A54C508F243046218030010D4" width=40px height=40px>AI语音</a></li>
+				    <li><a href="https://www.ear0.com/" class="qw"><img src="http://i-1.hxgame.net/2021/6/1/47574dfb-c2f2-43b1-b21a-55c2a985406e.jpg" width=40px height=40px>音效素材</a></li>
+				    <li><a href="https://iconfont.cn" class="qw"><img src="https://gimg3.baidu.com/search/src=http%3A%2F%2Fgdown.baidu.com%2Fimg%2F0%2F512_512%2F9caf190125d801854cec5f4a445fa0e9.png&refer=http%3A%2F%2Fwww.baidu.com&app=2021&size=w320&n=0&g=0n&er=404&q=80&fmt=auto&maxorilen2heic=2000000?sec=1675098000&t=0ccb7ca2954913705a0739bc48e43d34" width=40px height=40px>图标插画</a></li>
+				    <li><a href="https://100font.com" class="qw"><img src="https://www.100font.com/view/img/favicon.ico" width=40px height=40px>字体下载</a></li>
+				    <li><a href="https://fontspace.com" class="qw"><img src="https://img.fontspace.co/gallery/80x80/1/14c25171272f4d23a9fbb4b9ed7b050d.jpg" width=40px height=40px>英文字体</a></li>
+				    <li><a href="https://jiumodiary.com" class="qw"><img src="https://www2.jiumodiary.com/images/front/eleps.png" width=40px height=40px>鸠摩搜索</a></li>
+				    <li><a href="https://nbfox.com" class="qw"><img src="https://t9.baidu.com/it/u=1992922665,1572387487&fm=217&app=137&size=r3,2&n=0&g=4n&f=JPEG&fmt=auto&maxorilen2heic=2000000?s=7B99668E510E4D4D56D2BF740300C07B" width=40px height=40px>麦田艺术</a></li>
+				    <li><a href="https://davidrumsey.com" class="qw"><img src="https://img1.baidu.com/it/u=2386449250,941694608&fm=253&app=138&size=b931,240&n=0&f=JPEG&fmt=auto&maxorilen2heic=2000000" width=40px height=40px>地图博物</a></li>
+			        <li><a href="https://chat6.aichatos.com/" class="qw"><img src="https://img1.baidu.com/it/u=3613958228,3522035000&fm=253&fmt=auto&app=120&f=JPEG?w=500&h=500" width=40px height=40px>chatgpt</a></li>
+        </ul>
+            </li>
+        </ul>
+	  </nav>
+	  </body>
+</html>
